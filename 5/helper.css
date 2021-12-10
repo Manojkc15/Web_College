@@ -20,3 +20,11 @@
     background-position: center;
     background-size: 600px 200px;
 }
+
+h3.visible {
+    visibility: visible;
+}
+
+h3.not-visible {
+    visibility: hidden;
+}
