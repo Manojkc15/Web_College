@@ -1,16 +1,16 @@
-.a:active {
+a:active {
     color: green;
 }
 
-.a:visited {
+a:visited {
     color: chocolate;
 }
 
-.a:link {
+a:link {
     color: blue;
 }
 
-.a:hover {
+a:hover {
     color: aqua;
 }
 
