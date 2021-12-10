@@ -13,3 +13,10 @@
 .a:hover {
     color: aqua;
 }
+
+.background {
+    background-image: url("https://jssstuniv.in/wp-content/uploads/2020/11/logo-for-web-site.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px 200px;
+}
