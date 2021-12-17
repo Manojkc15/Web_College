@@ -7,7 +7,8 @@
 
 .bg-img {
     background-image: url("https://jssonline.org/wp-content/uploads/2018/10/JSS-Science-and-Technology-University.jpg");
-    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .welcome {
