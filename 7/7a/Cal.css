@@ -1,0 +1,90 @@
+/* common styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/* common styles end */
+
+/* calculator */
+
+.calculator {
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #f1f1f1;
+    box-shadow: 2px 10px 10px #bebebe;
+}
+
+/* calculator style end */
+
+/* display */
+
+.display {
+    box-shadow: 2px 2px 5px #bebebe inset, -2px -2px 5px #ffffff inset;
+    width: 100%;
+    height: 80px;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: #f7f7f7;
+    color: #000;
+    text-align: right;
+    border-radius: 7px;
+    border-top-right-radius: 7px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+/* display style end */
+
+/* row */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* row style end */
+
+/* button */
+
+button {
+    box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: rgb(238, 238, 238);
+    color: rgb(49, 49, 49);
+    margin: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* button style end */
+
+/* operator */
+
+.operator {
+    background-color: #ecf1f3;
+    color: #84dfff;
+}
