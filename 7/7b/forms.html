@@ -8,65 +8,71 @@
         <title>Forms</title>
     </head>
     <body>
-        <div class="card">
-            <form action="">
-                <label>Name : </label>
+        <div class="card" id="error">
+            <form action="results.html" method="GET" id="form">
+                <label for="name">Name : </label>
                 <input
                     type="text"
                     name="name"
                     placeholder="Enter your name"
                     required
+                    id="name"
                 />
                 <br />
                 <br />
-                <label>Email Address: </label>
+                <label for="email">Email Address: </label>
                 <input
                     type="email"
                     name="email"
                     placeholder="Enter your email"
                     required
+                    id="email"
                 />
                 <br />
                 <br />
-                <label>Mobile Number : </label>
+                <label for="mobile">Mobile Number : </label>
                 <input
-                    type="number"
+                    type="tel"
                     name="mobile"
                     placeholder="Enter your mobile number"
                     required
+                    id="mobile"
+                    maxlength="10"
+                    minlength="10"
                 />
+
                 <br />
                 <br />
                 <label style="margin-right: 50px">Gender :</label>
                 <label class="temp" for="male">Male</label>
-                <label for="">
-                    <input
-                        type="radio"
-                        name="gender"
-                        value="Male"
-                        id="male"
-                        style="margin-left: 0px"
-                        checked
-                    />
-                    <label class="temp" for="female" style="margin-right: 50px"
-                        >Female</label
-                    >
-                    <input
-                        type="radio"
-                        name="gender"
-                        value="Female"
-                        id="female"
-                        style="margin-left: 0px"
-                    />
-                </label>
+                <input
+                    type="radio"
+                    name="gender"
+                    value="Male"
+                    id="male"
+                    style="margin-left: 0px"
+                    checked
+                />
+                <label class="temp" for="female" style="margin-right: 50px"
+                    >Female</label
+                >
+                <input
+                    type="radio"
+                    name="gender"
+                    value="Female"
+                    id="female"
+                    style="margin-left: 0px"
+                />
                 <br />
                 <br />
                 <label for="FavColor">Favorite color :</label>
                 <input type="color" name="FavColor" id="FavColor" />
                 <br />
                 <br />
-                <input type="submit" name="submit" value="Submit" />
+                <input type="submit" onClick="errorDisplay()" value="Submit" />
+                <input type="reset" value="Reset" />
             </form>
+            <span id="mob"></span>
         </div>
     </body>
 </html>
